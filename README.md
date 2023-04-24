@@ -5,24 +5,12 @@
 MongoDB, Expressjs, React/Redux, Nodejs
 </p>
 
-<p align="center">
-   <a href="https://github.com/amazingandyyy/mern/blob/master/LICENSE">
-      <img src="https://img.shields.io/badge/License-MIT-green.svg" />
-   </a>
-   <a href="https://circleci.com/gh/amazingandyyy/mern">
-      <img src="https://circleci.com/gh/amazingandyyy/mern.svg?style=svg" />
-   </a>
-</p>
 
 > MERN is a fullstack implementation in MongoDB, Expressjs, React/Redux, Nodejs.
 
 MERN stack is the idea of using Javascript/Node for fullstack web development.
 
-## clone or download
-```terminal
-$ git clone https://github.com/amazingandyyy/mern.git
-$ yarn # or npm i
-```
+
 
 ## project structure
 ```terminal
@@ -56,19 +44,12 @@ $ npm run build // this will compile the react code using webpack and generate a
 $ npm run start // this will run the files in docs, this behavior is exactly the same how gh-pages will run your static site
 ```
 
-## Server-side usage(PORT: 8000)
+## Server-side usage(PORT: 5000)
 
 ### Prepare your secret
 
 run the script at the first level:
 
-(You need to add a JWT_SECRET in .env to connect to MongoDB)
-
-```terminal
-// in the root level
-$ cd server
-$ echo "JWT_SECRET=YOUR_JWT_SECRET" >> src/.env
-```
 
 ### Start
 
